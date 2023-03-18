@@ -1,0 +1,44 @@
+@font-face {
+  font-family: RoxboroughCF;
+  src: url(./Webfont/RoxboroughCF-Medium.woff);
+}
+
+body {
+  background-color: #efffdd;
+}
+
+.content {
+  position: relative;
+  display: inline-block;
+}
+
+.html-quote {
+  font-family: RoxboroughCF;
+  font-size: 268px;
+  color: rgba(755, 73, 33, 0.2);
+}
+
+.text {
+  position: absolute;
+  top: 144px;
+  width: 100%;
+  text-align: center;
+}
+
+.title,
+.sub-title {
+  margin: 0;
+  color: #764b34;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  margin-top: 12px;
+  font-family: "Sorts Mill Goudy", serif;
+}
