@@ -31,6 +31,13 @@ body {
   color: #764b34;
   font-size: 30px;
   font-weight: normal;
+  cursor: default;
+  transition: 0.5s linear opacity;
+}
+
+.title:hover,
+.sub-title:hover {
+  opacity: 0;
 }
 
 .title {
@@ -42,3 +49,4 @@ body {
   margin-top: 12px;
   font-family: "Sorts Mill Goudy", serif;
 }
+
